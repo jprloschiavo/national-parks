@@ -1,0 +1,35 @@
+.grid {
+    display: grid;
+}
+
+.grid--3-col {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.card {
+    
+}
+
+.card__img {
+
+}
+
+.card__title {
+
+}
+
+.card__desc {
+
+}
+
+.button {
+
+}
+
+.button__text {
+
+}
+
+.button__img {
+    
+}
