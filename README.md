@@ -1,5 +1,6 @@
 A simple webpage about America's beautiful national parks to practice using BEM naming convention and CSS utility classes
 
+```
 | *  *  *  *  *  *  *  *  *  * OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO|
 |  *  *  *  *  *  *  *  *  *   OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO|
 | *  *  *  *  *  *  *  *  *  * OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO|
@@ -13,3 +14,4 @@ A simple webpage about America's beautiful national parks to practice using BEM 
 |OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO|
 |OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO|
 |OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO|
+```
