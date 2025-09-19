@@ -8,9 +8,6 @@
     </head>
     <body class="w-100">
         <header class="w-100">
-            <div class="alert">
-                <p class="alert__text">BEM and Utility Class Showcase</p>
-            </div>
             <div class="header w-100-max p-xy-1">
                 <h1 class="header__title">Explore America's National Parks</h1>
                 <p class="header__desc">
@@ -20,13 +17,14 @@
         </header>
         <main class="w-100-max">
             <div class="grid grid--3-col p-xy-2">
-                <div class="card">
-                    <img class="card__img" src="/resources/media/bryce-canyon.webp">
-                    <h2 class="card__title">Bryce Canyon National Park</h2>
-                    <p class="card__desc">Explore scenic overlooks, winding trails, and star-filled night skies in this one-of-a-kind natural amphitheater. Bryce Canyon is famous for its otherworldly hoodoos, towering red rock spires carved by centuries of erosion.</p>
-                    <a class="button" href="#">
-                        <span class="button__text">Learn More</span>
-                        <img class="button__img" src="/resources/media/right-arrow.svg">
+                <div class="card card--featured">
+                    <img class="card__img card__img--featured" src="/resources/media/bryce-canyon.webp">
+                    <h2 class="card__title card__title--featured">Bryce Canyon National Park</h2>
+                    <p class="card__desc card__desc--featured">Explore scenic overlooks, winding trails, and star-filled night skies in this one-of-a-kind natural amphitheater. Bryce Canyon is famous for its otherworldly hoodoos, towering red rock spires carved by centuries of erosion.</p>
+                    <a class="button button--featured" href="#">
+                        <span class="button__text button__text--featured">Learn More</span>
+                        <img class="button__img button__img--hide" src="/resources/media/right-arrow.svg">
+                        <img class="button__img button__img--featured" src="/resources/media/right-arrow-featured.svg">
                     </a>
                 </div>
                 <div class="card">
@@ -103,5 +101,10 @@
                 </div>
             </div>
         </main>
+        <footer class="w-100">
+            <div class="footer w-100-max p-xy-2">
+                <p>jprloschiavo @ GitHub</p>
+            </div>
+        </footer>
     </body>
 </html>
