@@ -135,15 +135,16 @@ html {
 }
 
 .footer__link {
-    text-decoration: none;
     color: var(--c-dark-1);
 }
 
 .footer__link:hover {
+    text-decoration: none;
     color: var(--c-primary-1);
 }
 
 .footer__link:active {
+    text-decoration: none;
     color: var(--c-accent-2);
 }
 
