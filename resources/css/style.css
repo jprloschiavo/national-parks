@@ -57,16 +57,7 @@ html {
     color: var(--c-dark-1);
 }
 
-.w-100 { width: 100%; }
-
-.w-100-max { 
-    width: 100%;
-
-    @media (min-width: 1200px) {
-        width: 1200px;
-        margin: 0 auto;
-    }
-}
+.w-100, .w-100-max { width: 100%; }
 
 .p-xy-1 { padding: var(--p-xy-1); }
 
@@ -80,14 +71,6 @@ html {
 .grid--3-col {
     grid-template-columns: repeat(3, 1fr);
     gap: var(--g-xy-1);
-
-    @media (max-width: 960px) {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    @media (max-width: 504px) {
-        grid-template-columns: 1fr;
-    }
 }
 
 .card {
@@ -147,7 +130,37 @@ html {
     display: none;
 }
 
-@media only screen and (min-width: 960px) {
+.footer {
+    padding: var(--p-3);
+}
+
+.footer__link {
+    text-decoration: none;
+    color: var(--c-dark-1);
+}
+
+.footer__link:hover {
+    color: var(--c-primary-1);
+}
+
+.footer__link:active {
+    color: var(--c-accent-2);
+}
+
+@media only screen and (min-width: 1200px) {
+    .w-100-max {
+        width: 1200px;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 960px) {
+    .grid--3-col {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media only screen and (min-width: 960px) { 
     .card--featured {
         grid-column: auto / span 2;
         position: relative;
@@ -198,6 +211,8 @@ html {
     }
 }
 
-.footer {
-    padding-bottom: var(--p-3);
+@media only screen and (max-width: 560px) {
+    .grid--3-col {
+        grid-template-columns: 1fr;
+    }
 }
